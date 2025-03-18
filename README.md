@@ -25,7 +25,6 @@
       - [Multimodal Reasoning](#multimodal-reasoning)
     - [Non-Retrieval Methods](#non-retrieval-methods)
   - [Existing Survey](#existing-survey)
-  - [Related info.](#related-info)
   
 ## Paper
 
@@ -172,6 +171,11 @@
 
 
 #### LLM-based Methods
+
+0. **Paper list on LLMs for table-related tasks**
+
+    [Awesome-Tabular-LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs)
+
 
 1. **Binding Language Models in Symbolic Languages**  <ins>ICLR</ins> 2023
 
@@ -407,13 +411,6 @@
 4. **A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions**
 
    [[Paper](https://arxiv.org/pdf/2208.13629.pdf)]*Bowen Qin, Binyuan Hui, Lihan Wang, Min Yang, Jinyang Li, Binhua Li, Ruiying Geng, Rongyu Cao, Jian Sun, Luo Si, Fei Huang, Yongbin Li*
-
-
-
-### Related info. 
-1. **large language models (LLM) for table-related tasks**
-
-    [Awesome-Tabular-LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs)
 
 
 
