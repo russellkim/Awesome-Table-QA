@@ -51,6 +51,7 @@
 - **Paper list on LLMs for table-related tasks**
 
     [Awesome-Tabular-LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs)
+  
     [LLM-Table-Survey](https://github.com/godaai/llm-table-survey)
 
 ## Dataset
