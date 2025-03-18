@@ -11,24 +11,22 @@
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Paper](#paper)
-  - [Existing Survey](#existing-survey)
-  - [Dataset](#dataset)
-    - [Single-Turn](#single-turn)
-    - [Multiple-Turn](#multiple-turn)
-  - [Methods](#methods)
-    - [Table Pretraining (TaLMs)](#table-pretraining-talms)
-    - [LLM-based Methods](#llm-based-methods)
-    - [Retrieval-then-Read Methods](#retrieval-then-read-methods)
-      - [Multi-hop](#multi-hop)
-      - [Open-Domain](#open-domain)
-      - [Numerical Reasoning](#numerical-reasoning)
-      - [Multimodal Reasoning](#multimodal-reasoning)
-    - [Non-Retrieval Methods](#non-retrieval-methods)
+- [Existing Survey](#existing-survey)
+- [Dataset](#dataset)
+  - [Single-Turn](#single-turn)
+  - [Multiple-Turn](#multiple-turn)
+- [Methods](#methods)
+  - [Table Pretraining (TaLMs)](#table-pretraining-talms)
+  - [LLM-based Methods](#llm-based-methods)
+  - [Retrieval-then-Read Methods](#retrieval-then-read-methods)
+    - [Multi-hop](#multi-hop)
+    - [Numerical Reasoning](#numerical-reasoning)
+    - [Open-Domain](#open-domain)
+    - [Multimodal Reasoning](#multimodal-reasoning)
+  - [Non-Retrieval Methods](#non-retrieval-methods)
   
-## Paper
 
-### Existing Survey
+## Existing Survey
 
 - **A Survey on Table-and-Text HybridQA: Concepts, Methods, Challenges and Future Directions** 2022.12
    
@@ -55,9 +53,9 @@
     [Awesome-Tabular-LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs)
     [LLM-Table-Survey](https://github.com/godaai/llm-table-survey)
 
-### Dataset
+## Dataset
 
-#### Single-Turn
+### Single-Turn
 
 - **Compositional Semantic Parsing on Semi-Structured Tables** `WikiTableQuestions` 2015
   
@@ -137,7 +135,7 @@
 
 
 
-#### Multiple-Turn
+### Multiple-Turn
 
 - **CoQA: A Conversational Question Answering Challenge** `CoQA` <ins>TACL</ins> 2019
     
@@ -161,9 +159,9 @@
 
 
 
-### Methods
+## Methods
 
-#### Table Pretraining (TaLMs)
+### Table Pretraining (TaLMs)
 
 - **TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**  <ins>ACL</ins> 2020
 
@@ -198,7 +196,7 @@
 
 
 
-#### LLM-based Methods
+### LLM-based Methods
 
 - **Binding Language Models in Symbolic Languages**  <ins>ICLR</ins> 2023
 
@@ -243,9 +241,9 @@
    [[Paper](https://arxiv.org/abs/2303.10138)] *Carlos Gemmell, Jeffrey Dalton*
 
 
-#### Retrieval-then-Read Methods
+### Retrieval-then-Read Methods
 
-##### Multi-hop
+#### Multi-hop
 
 - **MATE: Multi-view Attention for Table Transformer Efficiency**  <ins>EMNLP</ins> 2021
 
@@ -302,33 +300,7 @@
     [[Paper](https://aclanthology.org/2023.acl-long.449/)] *Vishwajeet Kumar, Yash Gupta, Saneem Chemmengath, Jaydeep Sen, Soumen Chakrabarti, Samarth Bharadwaj, Feifei Pan*
 
 
-##### Open-Domain
-
-- **Reasoning over hybrid chain for table-and-text open domain question answering** `CARP` <ins>IJCAI</ins> 2022
-
-    `OTT-QA`
-
-    [[Paper](https://www.ijcai.org/proceedings/2022/0629.pdf)] *Wanjun Zhong, Junjie Huang, Qian Liu, Ming Zhou, Jiahai Wang, Jian Yin, Nan Duan*
-
-- **Mixed-modality Representation Learning and Pre-training for Joint Table-and-Text Retrieval in OpenQA**  `OTTeR` <ins>EMNLP-Findings</ins> 2022
-
-    `OTT-QA`
-
-    [[Paper](https://arxiv.org/abs/2210.05197)] *Junjie Huang, Wanjun Zhong, Qian Liu, Ming Gong, Daxin Jiang, Nan Duan*
-
-- **Open-domain Question Answering via Chain of Reasoning over Heterogeneous Knowledge**  `CORE` <ins>EMNLP-Findings</ins> 2022
-
-    `OTT-QA`
-
-    [[Paper](https://arxiv.org/abs/2210.05197)] *Kaixin Ma, Hao Cheng, Xiaodong Liu, Eric Nyberg, Jianfeng Gao*
-
-- **Chain-of-Skills: A Configurable Model for Open-domain Question Answering**  `CORE` <ins>ACL</ins> 2023
-
-    `OTT-QA`
-
-    [[Paper](https://arxiv.org/abs/2305.03130)] *Kaixin Ma, Hao Cheng, Yu Zhang, Xiaodong Liu, Eric Nyberg, Jianfeng Gao*
-
-##### Numerical Reasoning
+#### Numerical Reasoning
 
 - **Finqa: A dataset of numerical reasoning over financial data** `FinQANet` <ins>EMNLP</ins> 2021
 
@@ -367,9 +339,35 @@
     [[Paper](https://arxiv.org/abs/2211.03462)] *Tengxun Zhang, Hongfei Xu, Josef van Genabith, Deyi Xiong, Hongying Zan*
 
 
+#### Open-Domain
+
+- **Reasoning over hybrid chain for table-and-text open domain question answering** `CARP` <ins>IJCAI</ins> 2022
+
+    `OTT-QA`
+
+    [[Paper](https://www.ijcai.org/proceedings/2022/0629.pdf)] *Wanjun Zhong, Junjie Huang, Qian Liu, Ming Zhou, Jiahai Wang, Jian Yin, Nan Duan*
+
+- **Mixed-modality Representation Learning and Pre-training for Joint Table-and-Text Retrieval in OpenQA**  `OTTeR` <ins>EMNLP-Findings</ins> 2022
+
+    `OTT-QA`
+
+    [[Paper](https://arxiv.org/abs/2210.05197)] *Junjie Huang, Wanjun Zhong, Qian Liu, Ming Gong, Daxin Jiang, Nan Duan*
+
+- **Open-domain Question Answering via Chain of Reasoning over Heterogeneous Knowledge**  `CORE` <ins>EMNLP-Findings</ins> 2022
+
+    `OTT-QA`
+
+    [[Paper](https://arxiv.org/abs/2210.05197)] *Kaixin Ma, Hao Cheng, Xiaodong Liu, Eric Nyberg, Jianfeng Gao*
+
+- **Chain-of-Skills: A Configurable Model for Open-domain Question Answering**  `CORE` <ins>ACL</ins> 2023
+
+    `OTT-QA`
+
+    [[Paper](https://arxiv.org/abs/2305.03130)] *Kaixin Ma, Hao Cheng, Yu Zhang, Xiaodong Liu, Eric Nyberg, Jianfeng Gao*
+
    
 
-##### Multimodal Reasoning
+#### Multimodal Reasoning
 
 - **MultiModalQA: complex question answering over text, tables and images** `ImplicitDecomp` <ins>ICLR</ins> 2021
    
@@ -390,7 +388,7 @@
 
 
 
-#### Non-Retrieval Methods
+### Non-Retrieval Methods
 
 - **TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data**  <ins>EMNLP</ins> 2022
 
