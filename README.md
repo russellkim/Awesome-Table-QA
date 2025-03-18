@@ -9,6 +9,24 @@
 </p>
 
 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Paper](#paper)
+  - [Dataset](#dataset)
+    - [Single-Turn](#single-turn)
+    - [Multiple-Turn](#multiple-turn)
+  - [Methods](#methods)
+    - [Table Pretraining (TaLMs)](#table-pretraining-talms)
+    - [LLM-based Methods](#llm-based-methods)
+    - [Retrieval-then-Read Methods](#retrieval-then-read-methods)
+      - [Multi-hop](#multi-hop)
+      - [Open-Domain](#open-domain)
+      - [Numerical Reasoning](#numerical-reasoning)
+      - [Multimodal Reasoning](#multimodal-reasoning)
+    - [Non-Retrieval Methods](#non-retrieval-methods)
+  - [Existing Survey](#existing-survey)
+  - [Related info.](#related-info)
+  
 ## Paper
 
 ### Dataset
@@ -392,6 +410,10 @@
 
 
 
+### Related info. 
+1. **large language models (LLM) for table-related tasks**
+
+    [Awesome-Tabular-LLMs](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs)
 
 
 
